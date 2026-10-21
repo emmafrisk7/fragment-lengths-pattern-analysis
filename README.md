@@ -2,9 +2,7 @@
 
 # Fragment Length Analysis with PERMANOVA
 
-An R script that compares fragment length distributions between two sample groups, feature by feature, using PERMANOVA (Bray-Curtis distance) and a test of multivariate dispersion.
-
-## What the script does
+An R script that compares fragment length distributions between two sample groups, feature by feature, using PERMANOVA (Bray-Curtis distance).
 
 For each feature (e.g. a gene or region), it tests whether the distribution of fragment lengths differs between two groups (default: `OLD_NO` vs `OLD_YES`).
 
